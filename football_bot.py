@@ -16,7 +16,7 @@ from aiogram.dispatcher.filters import Text
 from aiogram.dispatcher.filters.state import StatesGroup, State
 
 
-bot = Bot(token="5379240859:AAF8_SxMBxC2DgQyV8ctjAcqj0RcrY3Hr_Y")
+bot = Bot(token="TOKEN")
 storage = MemoryStorage()
 dp = Dispatcher(bot, storage=storage)
 
